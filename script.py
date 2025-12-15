@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import date
 
 template = open("badge-template.svg", encoding="utf-8").read()
@@ -10,6 +11,7 @@ polaznici = [
     "certificate": "https://teachable.com/certificates/marko.pdf"
   }
 ]
+os.makedirs("badges/issued", exist_ok=True)
 
 for p in polaznici:
     slug = p["email"].replace("@", "_").replace(".", "_")

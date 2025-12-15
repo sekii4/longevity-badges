@@ -1,0 +1,15 @@
+{
+  "recipient": {
+    "type": "email",
+    "identity": "marko@email.com",
+    "hashed": false
+  },
+  "badge": {
+    "name": "Longevity Degree \u2013 Foundations",
+    "description": "Course completion badge",
+    "image": "https://longevity-degree.github.io/longevity-badges/badges/issued/marko_email_com.svg",
+    "issuer": "https://longevity.degree",
+    "criteria": "https://teachable.com/certificates/marko.pdf"
+  },
+  "issuedOn": "2025-12-15"
+}
